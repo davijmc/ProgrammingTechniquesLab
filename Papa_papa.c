@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(int arc, char *argv[]){
+int main(int argc, char *argv[]){
     int i, j, x, y, comida, pontos, lixo;
     char m[10][10], botao;
     srand(time(NULL));
